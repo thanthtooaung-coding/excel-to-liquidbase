@@ -190,7 +190,7 @@ export function downloadTemplate() {
       ],
     },
     {
-      name: "Relationship",
+      name: "RELATIONSHIP",
       values: [
         ["Father", "Father Relation", "ဖခင်"],
         ["Mother", "Mother Relation", "မိခင်"],
@@ -212,7 +212,7 @@ export function downloadTemplate() {
 
   exampleSheets.forEach((sheet) => {
     const sheetData = [
-      ["CodeName", sheet.name.toUpperCase()],
+      ["CodeName", sheet.name],
       ["code_value", "code_description", "code_value_mm"],
       ...sheet.values,
     ]
