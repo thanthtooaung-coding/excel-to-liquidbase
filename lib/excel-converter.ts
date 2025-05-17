@@ -196,6 +196,18 @@ export function downloadTemplate() {
         ["Mother", "Mother Relation", "မိခင်"],
       ],
     },
+    {
+      name: "ClientType",
+      values: [
+        ["Test", "Test Desc", "စမ်းသပ်မှု"],
+      ],
+    },
+    {
+      name: "ClientClassification",
+      values: [
+        ["Test", "Test Desc", "စမ်းသပ်မှု"],
+      ],
+    },
   ]
 
   exampleSheets.forEach((sheet) => {
